@@ -1,0 +1,12 @@
+@media (max-width: 550px){
+    .card {
+        height: auto;
+        width: 350px;
+        padding: auto;
+    }
+
+    .card .divide{
+        background-image: url(../images/pattern-divider-mobile.svg);
+        width: 250px;        
+    }
+}

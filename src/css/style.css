@@ -1,0 +1,68 @@
+body {
+    background: var(--bg-main);
+    height: 100vh;
+}
+
+.card {
+    background-color: var(--bg-card);
+    height: auto;
+    width: 520px;
+    padding: 55px;
+    margin: 25px;
+    gap: 30px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.advice {
+    color: var(--btn);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.card .conselho {
+    color: var(--font);
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.card .divide{
+    background-image: url(../images/pattern-divider-mobile.svg);
+    background-position: center;
+    height: 16px;
+    width: 400px;
+}
+
+button {
+    background-color: var(--btn);
+    background-image: url(../images/icon-dice.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    bottom: -30px;
+    left: center;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 35px var(--btn);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--font);
+}
+
+.attribution a {
+    color: var(--btn);
+    text-decoration: none;
+}
