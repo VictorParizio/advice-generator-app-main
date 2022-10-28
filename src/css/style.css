@@ -15,7 +15,7 @@ body {
     position: relative;
 }
 
-.advice {
+.adviceId {
     color: var(--btn);
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -23,7 +23,7 @@ body {
     font-weight: 800;
 }
 
-.card .conselho {
+.card .adviceText {
     color: var(--font);
     font-size: 28px;
     font-weight: 800;
